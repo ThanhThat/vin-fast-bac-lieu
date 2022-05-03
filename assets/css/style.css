@@ -150,6 +150,7 @@ html {
     top: 0;
     left: 0;
     right: 0;
+    z-index: 1;
 }
 .nav {
     display: block;
@@ -189,8 +190,8 @@ html {
 
 /* Begin: slider */
 .slider {
-    background: url('../img/slider/bn.jpg') top center / cover no-repeat;
-    padding-top: 50%;
+    /* background: url('../img/slider/bn.jpg') top center / cover no-repeat; */
+    /* padding-top: 50%; */
 }
 /* End: slider */
 
