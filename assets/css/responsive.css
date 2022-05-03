@@ -37,4 +37,14 @@
     .menu-mobile-icon {
         display: block;
     }
+
+    /* modal */
+    .modal-header__name {
+        font-size: 2rem;
+    }
+
+    .modal-header__contact {
+        font-size: 1.5rem;
+        padding: 1.6rem 1.3rem;
+    }
 }

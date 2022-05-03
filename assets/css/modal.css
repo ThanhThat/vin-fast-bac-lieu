@@ -1,0 +1,57 @@
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 999;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    display: none;
+}
+
+.modal__container {
+    width: 120rem;
+    max-width: calc(100% - 3.2rem);
+    background-color: #fff;
+    position: relative;
+}
+
+.modal__close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 1rem;
+    font-size: 2rem;
+}
+
+.modal-header {
+    padding: 1.6rem;
+}
+
+.modal-header__img img{
+    width: 100%;
+}
+
+.modal-header__name {
+    font-size: 3.6rem;
+    display: block;
+}
+
+.modal-header__star {
+    color: rgb(221, 167, 18);
+    display: block;
+    font-size: 2.8rem;
+}
+
+.modal-header__price {
+    font-size: 2.8rem;
+}
+
+.modal-header__contact {
+    display: inline-block;
+    font-size: 2rem;
+    border-radius: 4px;
+}
