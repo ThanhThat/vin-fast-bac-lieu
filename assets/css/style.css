@@ -199,7 +199,7 @@ html {
 }
 
 .content__section {
-    width: 120rem;
+    width: 1200px;
     max-width: 100%;
     margin: 0 auto;
     padding: 48px 16px 80px;
@@ -249,12 +249,13 @@ html {
 /* Begin: footer */
 .footer {
     background-color: #f44336;
+    padding: 1.6rem;
 }
 
 .footer_derc {
     font-size: 1.6rem;
     color: #fff;
-    padding: 2.6rem;
+    /* padding: 1.6rem; */
     line-height: 1.8rem;
     text-align: justify;
 }
@@ -262,7 +263,7 @@ html {
 .footer__address {
     font-size: 2.2rem;
     line-height: 3rem;
-    padding: 2.6rem;
+    /* padding: 2.6rem; */
     color: #fff;
 }
 /* End: footer */
