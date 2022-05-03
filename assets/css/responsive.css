@@ -30,6 +30,10 @@
         display: block;
     }
 
+    .nav > li:first-child {
+        display: inline-block;
+    }
+
     .menu-mobile-icon {
         display: block;
     }
