@@ -1,0 +1,29 @@
+.fix-tel {
+    position: fixed;
+    bottom: 0;
+    left: 1.6rem;
+    font-size: 4rem;
+}
+
+.fix-tel__zalo {
+    padding: 1.6rem;
+    background-color: rgba(255, 255, 255, 0.685);
+    box-shadow: 0.1rem 0.1rem 0.5rem 0rem rgba(0, 0, 0, 0.8);
+    border-radius: 50%;
+    display: flex;
+    
+}
+
+.fix-tel__zalo a {
+    color: #0065f7;
+    display: block;
+    margin: auto;
+}
+
+.fix-tel__phone {
+    padding: 1.6rem;
+}
+
+.fix-tel__phone a {
+    color: #0065f7;
+}
