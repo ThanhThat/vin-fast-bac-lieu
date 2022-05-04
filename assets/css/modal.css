@@ -26,11 +26,15 @@
 }
 
 .modal__close {
-    position: absolute;
-    top: 0;
-    right: 0;
-    padding: 1rem;
+    position: fixed;
+    top: 2rem;
+    right: 2rem;
+    /* padding: 1rem; */
     font-size: 2rem;
+    z-index: 9999;
+    border-radius: 50%;
+    padding: .5rem .8rem;
+    background-color: #ccc;
 }
 
 .modal__close:hover {
