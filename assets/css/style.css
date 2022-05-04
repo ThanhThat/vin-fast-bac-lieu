@@ -254,6 +254,7 @@ html {
     text-align: center;
     color: var(--text-color);
     width: 100%;
+    border: 1px solid #ccc;
 }
 .car__img  {
     height: 25rem;
@@ -266,6 +267,11 @@ html {
     object-fit: cover;
     display: block;
 }
+
+.car__body {
+    padding: 1.6rem;
+}
+
 .car__name {
     font-size: 2rem;
 }
