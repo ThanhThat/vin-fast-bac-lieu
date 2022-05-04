@@ -41,6 +41,7 @@
     /* modal */
     .modal-header__name {
         font-size: 2rem;
+        line-height: 3rem;
     }
 
     .modal-header__contact {

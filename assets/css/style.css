@@ -264,6 +264,7 @@ html {
     height: 100%;
     width: 100%;
     object-fit: cover;
+    display: block;
 }
 .car__name {
     font-size: 2rem;
