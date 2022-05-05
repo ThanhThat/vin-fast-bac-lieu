@@ -118,6 +118,7 @@
     padding-left: 0.4rem;
     line-height: 3rem;
     font-weight: 400;
+    text-transform: uppercase;
 }
 
 .modal-content__sub-heading {
