@@ -217,6 +217,11 @@ html {
     font-size: 2.8rem;
     display: none;
 }
+
+.menu-mobile-icon--none {
+    display: none !important;
+}
+
 /* End: header-menu */
 
 /* Begin: slider */

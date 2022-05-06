@@ -28,10 +28,29 @@
 
     .nav > li {
         display: block;
+        /* animation: slideMenu ease 0.3s forwards; */
     }
 
     .nav > li:first-child {
         display: inline-block;
+        opacity: 1;
+        transform: translate(0);
+    }
+
+    .nav > li {
+        opacity: 0;
+        transform: translateX(-50%);
+    }
+
+    @keyframes slideMenu {
+        from {
+            transform: translateX(-50%);
+            opacity: 0;
+        }
+        to {
+            transform: translateX(0%);
+            opacity: 1;
+        }
     }
 
     .menu-mobile-icon {
