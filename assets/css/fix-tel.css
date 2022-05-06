@@ -6,27 +6,29 @@
     z-index: 99;
 }
 
-.fix-tel__zalo {
-    /* padding: 1.6rem; */
-    /* background-color: rgba(255, 255, 255, 0.685); */
-    
+.fix-tel__zalo {    
     display: flex;
     justify-content: center;
-    
 }
 
 .fix-tel__zalo img {
     color: #0065f7;
     display: block;
     width: 6rem;
-    box-shadow: 0rem 0.2rem 0.5rem rgba(0, 0, 0, 0.8);
+    box-shadow: 0.02rem 0.2rem 0.5rem rgba(0, 0, 0, 0.8);
     border-radius: 50%;
 }
 
 .fix-tel__phone {
     padding: 1.6rem;
+    margin: 0 auto;
 }
 
 .fix-tel__phone a {
-    color: #0065f7;
+    width: 6rem;
+    display: flex;
+    justify-content: center;
+    text-shadow: 0.2rem 0.2rem 0.5rem rgba(0, 0, 0, 0.8);
+    text-decoration: none;
 }
+
