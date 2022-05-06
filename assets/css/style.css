@@ -299,7 +299,7 @@ html {
 
 .member-img {
     border-radius: 50%;
-    width: 50%;
+    width: 70%;
     display: flex;
     margin: 0 auto;
 }
@@ -312,10 +312,15 @@ html {
 
 .info-body__ceo {
     font-weight: 600;
+    font-size: 2.2rem;
+    color: rgb(53, 51, 51);
+    letter-spacing: 0.2rem;
 }
 
 .info-body__name {
-
+    font-weight: 500;
+    font-size: 2rem;
+    letter-spacing: 0.4rem;
 }
 
 .info-body__phone a {

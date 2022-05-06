@@ -35,8 +35,10 @@ for (i=1; i<menuItems.length; i++) {
 burger.addEventListener('click', () => {
     burger.classList.toggle('menu-mobile-icon--none');
     menuIconClose.classList.toggle('menu-mobile-icon--none');
+    let i = 1;
     for(let menuLi of menuLis) {
-        menuLi.style.animation = `slideMenu ease 0.3s forwards ${1/6}s`;
+        menuLi.style.animation = `slideMenu ease 0.3s forwards ${i/menuLis.length}s`;
+        i++;
     }
 })
 
