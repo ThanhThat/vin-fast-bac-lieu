@@ -20,15 +20,25 @@
 }
 
 .fix-tel__phone {
-    padding: 1.6rem;
-    margin: 0 auto;
+    padding: 0.6rem;
+    height: 9vh;
+    background-color: #0065f7;
+    border-radius: 50% 50% 50% 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0.8rem;
+    margin-bottom: 0.8rem;
+    box-shadow: 0.02rem 0.2rem 0.5rem rgba(0, 0, 0, 0.8);
 }
 
 .fix-tel__phone a {
-    width: 6rem;
+    width: 4rem;
     display: flex;
     justify-content: center;
     text-shadow: 0.2rem 0.2rem 0.5rem rgba(0, 0, 0, 0.8);
     text-decoration: none;
+    color: #fff;
+    font-size: 2.5rem;
 }
 
