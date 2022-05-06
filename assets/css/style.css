@@ -8,6 +8,10 @@
     --btn-color: rgb(21, 82, 153);
 }
 
+.bg-color {
+    background-color: rgb(21, 82, 153);
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -237,6 +241,7 @@ html {
     border-bottom: 1px solid var(--border-color);
     color: #fff;
     display: block;
+    text-transform: uppercase;
 }
 
 .content__heading > span {
@@ -286,6 +291,39 @@ html {
     cursor: pointer;
     border-radius: 4px;
 }
+
+.member-img {
+    border-radius: 50%;
+    width: 50%;
+    display: flex;
+    margin: 0 auto;
+}
+
+.info-body {
+    width: 100%;
+    font-size: 1.6rem;
+    line-height: 2rem;
+}
+
+.info-body__ceo {
+    font-weight: 600;
+}
+
+.info-body__name {
+
+}
+
+.info-body__phone a {
+    text-decoration: none;
+    color: rgb(21, 82, 153);
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
+.info-body__phone a:hover {
+    opacity: 0.8;
+}
+
 
 /* End: car */
 
