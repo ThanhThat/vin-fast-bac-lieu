@@ -40,6 +40,13 @@ burger.addEventListener('click', () => {
         menuLi.style.animation = `slideMenu ease 0.3s forwards ${i/menuLis.length}s`;
         i++;
     }
+    for(let menuLi2 of menuLis) {
+        menuLi2.addEventListener('click', () => {
+            for (i = 0; i < menuLis.length; i++) {
+                menuLis[i].style.animation = null;
+            }
+        })
+    }
 })
 
 menuIconClose.addEventListener('click', () => {
